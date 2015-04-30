@@ -3,5 +3,5 @@
 	"editor.lineHeight": 13,
 	"editor.renderWhitespace": true,
 	"editor.tabSize": 1,
-	"editor.fontFamily": ["Myrica M", "ＭＳ ゴシック"]
+	"editor.fontFamily": ["Myrica M", "Ricty Diminished Discord", "ＭＳ ゴシック",  "Osaka-Mono"]
 }
