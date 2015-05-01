@@ -3,5 +3,7 @@
 	"editor.lineHeight": 13,
 	"editor.renderWhitespace": true,
 	"editor.tabSize": 1,
+	"editor.insertSpaces": 1,
+	"editor.roundedSelection": false,
 	"editor.fontFamily": ["Myrica M", "Ricty Diminished Discord", "ＭＳ ゴシック",  "Osaka-Mono"]
 }

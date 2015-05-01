@@ -1,0 +1,4 @@
+[
+ // spaceキーを押したときのスペース挿入数が変化してしまう問題の暫定対処として、spaceをtabと同じ挙動にする
+ { "key": "space", "command": "tab", "when": "editorTextFocus && !editorTabMovesFocus" }
+]
