@@ -5,5 +5,7 @@
 	"editor.tabSize": 1,
 	"editor.insertSpaces": 1,
 	"editor.roundedSelection": false,
-	"editor.fontFamily": ["Myrica M", "Ricty Diminished Discord", "ＭＳ ゴシック",  "Osaka-Mono"]
+	"editor.wrappingColumn": 0,
+	"editor.wrappingIndent": "indent",
+	"editor.fontFamily": ["Myrica M", "Ricty Diminished Discord", "ＭＳ ゴシック",  "Osaka-Mono"],
 }
