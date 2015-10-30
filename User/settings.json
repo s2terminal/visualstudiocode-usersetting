@@ -1,11 +1,12 @@
 {
-	"editor.fontSize": 13,
-	"editor.lineHeight": 13,
-	"editor.renderWhitespace": true,
+	"editor.fontSize": 15,
+	"editor.lineHeight": 14,
+//	"editor.renderWhitespace": true, // 半角スペースが全角になるので無効化
 	"editor.tabSize": "auto",
 	"editor.insertSpaces": 2,
 	"editor.roundedSelection": false,
 	"editor.wrappingColumn": 0,
 	"editor.wrappingIndent": "indent",
+	"markdown.styles": ["https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"],
 	"editor.fontFamily": ["Myrica M", "Ricty Diminished Discord", "ＭＳ ゴシック",  "Osaka-Mono"],
 }
