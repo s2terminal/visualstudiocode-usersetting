@@ -2,7 +2,6 @@
 	"editor.fontSize": 15,
 	"editor.lineHeight": 14,
 //	"editor.renderWhitespace": true, // 半角スペースが全角になるので無効化
-	"editor.tabSize": "auto",
 	"editor.insertSpaces": 2,
 	"editor.roundedSelection": false,
 	"editor.wrappingColumn": 0,
