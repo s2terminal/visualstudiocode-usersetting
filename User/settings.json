@@ -1,17 +1,34 @@
 {
+  // ファイル関連
   "files.associations": {
       "*.md": "markdown",
       "*.json.txt": "json"
   },
   "files.eol": "\n",
+  "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
+
+  // フォント設定
+  "editor.fontFamily": "Myrica M,Ricty Diminished Discord,ＭＳ ゴシック,Osaka-Mono",
   "editor.fontSize": 15,
-  "editor.lineHeight": 14,
-//  "editor.renderWhitespace": true, // 半角スペースが全角になるので無効化
+  "editor.lineHeight": 13,
+
+  // タブ設定
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+//  "editor.renderWhitespace": "boundary", // 半角スペースが全角になるので無効化
+
+  // ミニマップ
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+
+  // 動作
+  "editor.wordWrap": "off",
+  "editor.wrappingIndent": "indent",
+
+  // 見た目
+  "editor.cursorStyle": "block-outline",
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
-  "editor.insertSpaces": true,
   "editor.roundedSelection": false,
-  "editor.wrappingColumn": 0,
-  "editor.wrappingIndent": "indent",
-  "editor.fontFamily": ["Myrica M", "Ricty Diminished Discord", "ＭＳ ゴシック",  "Osaka-Mono"]
+  "workbench.iconTheme": "vs-seti"
 }
