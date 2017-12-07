@@ -9,8 +9,8 @@
 
   // フォント設定
   "editor.fontFamily": "Myrica M,Ricty Diminished Discord,ＭＳ ゴシック,Osaka-Mono",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 13,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 14,
 
   // タブ設定
   "editor.tabSize": 2,
@@ -30,5 +30,14 @@
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
   "editor.roundedSelection": false,
-  "workbench.iconTheme": "vs-seti"
+  "workbench.iconTheme": "vs-seti",
+  "workbench.colorTheme": "Monokai Dimmed",
+  "extensions.ignoreRecommendations": false,
+  "workbench.panel.location": "bottom",
+
+  // ターミナル
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 16
 }
