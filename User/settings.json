@@ -30,7 +30,7 @@
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
   "editor.roundedSelection": false,
-  "workbench.iconTheme": "vs-seti",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Monokai Dimmed",
   "extensions.ignoreRecommendations": false,
   "workbench.panel.location": "bottom",

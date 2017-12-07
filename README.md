@@ -8,7 +8,15 @@ Userディレクトリにシンボリックリンクを貼る
 
 ### Windowsの例
 
-コマンドプロンプトを管理者権限で実行し下記コマンドを実行
+Windows PowerShellを管理者権限で実行し下記コマンドを実行
+
+```PowerShell
+PS > cd "C:\Users\$(Get-Content env:username)\AppData\Roaming\Code"
+PS > rm .\User\
+PS > cmd /c mklink /D User "C:\Users\$(Get-Content env:username)\Documents\git\visualstudiocode-usersetting\User" 
+```
+
+またはコマンドプロンプトを管理者権限で実行し下記コマンドを実行
 
 ```
 > cd "C:\Users\ユーザ名\AppData\Roaming\Code" 
