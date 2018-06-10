@@ -22,7 +22,7 @@
 	},
 	"chatwork:information": {
 		"prefix": "info",
-		"body": "[info][title]$1[/title]$2[/info]",
+		"body": "[info][title]${1:タイトル}[/title]${2:本文}[/info]",
 		"description": "ChatWork:インフォメーション"
 	},
 	"chatwork:hr": {
