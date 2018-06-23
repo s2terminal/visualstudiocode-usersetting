@@ -9,7 +9,7 @@
   "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
 
   // フォント設定
-  "editor.fontFamily": "Myrica M,Ricty Diminished Discord,ＭＳ ゴシック,Osaka-Mono",
+  "editor.fontFamily": "Myrica M,Ricty Diminished Discord,monospace,ＭＳ ゴシック,Osaka-Mono",
   "editor.fontSize": 16,
   "editor.lineHeight": 14,
 
