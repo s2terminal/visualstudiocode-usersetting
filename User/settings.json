@@ -39,6 +39,7 @@
 
   // Zen Mode
   "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
 
   // 開発
   "npm.enableScriptExplorer": true,
