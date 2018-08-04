@@ -1,12 +1,18 @@
 {
+  "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
+
   // ファイル関連
   "files.associations": {
     "*.md": "markdown",
     "*.json.txt": "json",
     "*.yml": "ruby"
   },
+
+  // 改行・エンコード
   "files.eol": "\n",
-  "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
+  "files.autoGuessEncoding": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
 
   // フォント設定
   "editor.fontFamily": "Myrica M,Ricty Diminished Discord,ＭＳ ゴシック,Osaka-Mono",
@@ -16,23 +22,39 @@
   // タブ設定
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-//  "editor.renderWhitespace": "boundary", // 半角スペースが全角になるので無効化
+  // "editor.renderWhitespace": "boundary", // 半角スペースが全角になるので無効化
 
   // ミニマップ
   "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 60,
+  "editor.minimap.showSlider": "always",
   "editor.minimap.renderCharacters": false,
 
-  // 動作
+  // 行の折り返し
   "editor.wordWrap": "off",
   "editor.wrappingIndent": "indent",
 
-  // 見た目
+  // Quick Open
+  "workbench.quickOpen.closeOnFocusLost": false,
+
+  // Zen Mode
+  "zenMode.fullScreen": false,
+
+  // 開発
+  "npm.enableScriptExplorer": true,
+
+  // カーソル
   "editor.cursorStyle": "block-outline",
+  "editor.cursorBlinking": "expand",
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
+  "editor.renderLineHighlight": "all",
   "editor.roundedSelection": false,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Monokai",
+
+  // テーマ
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "materialTheme.fixIconsRunning": false,
   "extensions.ignoreRecommendations": false,
 
   // ターミナル
@@ -40,6 +62,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.experimentalTextureCachingStrategy": "dynamic",
 
   // https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit
   "glassit.alpha": 230
