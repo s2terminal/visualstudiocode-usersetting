@@ -37,6 +37,11 @@
   // Quick Open
   "workbench.quickOpen.closeOnFocusLost": false,
 
+  // パンくずリスト
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "on",
+
   // Zen Mode
   "zenMode.fullScreen": false,
   "zenMode.centerLayout": false,
