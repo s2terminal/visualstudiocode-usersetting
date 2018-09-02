@@ -9,11 +9,12 @@ Userディレクトリにシンボリックリンクを貼る
 ### Windowsの例
 
 Windows PowerShellを管理者権限で実行し下記コマンドを実行
+※`\Documents\git\`にcloneされている場合。
 
 ```PowerShell
-PS > cd "C:\Users\$(Get-Content env:username)\AppData\Roaming\Code"
-PS > rm .\User\
-PS > cmd /c mklink /D User "C:\Users\$(Get-Content env:username)\Documents\git\visualstudiocode-usersetting\User" 
+> cd "C:\Users\$(Get-Content env:username)\AppData\Roaming\Code"
+> rm .\User\
+> cmd /c mklink /D User "C:\Users\$(Get-Content env:username)\Documents\git\visualstudiocode-usersetting\User"
 ```
 
 またはコマンドプロンプトを管理者権限で実行し下記コマンドを実行
@@ -31,3 +32,6 @@ PS > cmd /c mklink /D User "C:\Users\$(Get-Content env:username)\Documents\git\v
 $ cd /Users/ユーザ名/Library/Application\ Support/Code/
 $ ln -s /Users/ユーザ名/git/visualstudiocode-usersetting/User ./User
 ```
+
+## 参考
+テキスト用の設定と推奨される拡張機能は[VSCode workspace setting for text writing](https://gist.github.com/s2terminal/12b376c844a4f72f89ab94df83a75ea5#file-settings-json)に記載
