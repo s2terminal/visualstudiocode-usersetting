@@ -20,8 +20,8 @@ Windows PowerShellを管理者権限で実行し下記コマンドを実行
 またはコマンドプロンプトを管理者権限で実行し下記コマンドを実行
 
 ```
-> cd "C:\Users\ユーザ名\AppData\Roaming\Code" 
-> cmd /c mklink /D User "C:\Users\ユーザ名\Documents\git\visualstudiocode-usersetting\User" 
+> cd "C:\Users\ユーザ名\AppData\Roaming\Code"
+> cmd /c mklink /D User "C:\Users\ユーザ名\Documents\git\visualstudiocode-usersetting\User"
 ```
 
 ### Macの例

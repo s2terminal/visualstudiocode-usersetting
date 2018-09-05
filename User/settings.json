@@ -1,5 +1,7 @@
 {
+  // タイトル
   "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
+  "window.titleBarStyle": "custom",
 
   // ファイル関連
   "files.associations": {
