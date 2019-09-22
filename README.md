@@ -6,6 +6,20 @@
 
 Userディレクトリにシンボリックリンクを貼る
 
+### Linuxの設定例
+`~/git`にcloneされているとする
+```bash
+$  mkdir ~/git; cd $_
+$  git clone git@github.com:s2terminal/visualstudiocode-usersetting.git
+```
+
+VSCodeを終了した状態で、下記コマンドでシンボリックリンクを作成
+```bash
+$ cd ~/.config/Code/
+$ rm -r ./User
+$ ln -s ~/git/visualstudiocode-usersetting/User ./User
+```
+
 ### Windowsの例
 
 Windows PowerShellを管理者権限で実行し下記コマンドを実行
