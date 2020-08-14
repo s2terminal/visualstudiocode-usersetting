@@ -1,7 +1,9 @@
 {
-  // タイトル
+  // タイトル・ウィンドウ
   "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
   "window.titleBarStyle": "custom",
+  // "window.zoomLevel": 0,
+  "window.menuBarVisibility": "default",
 
   // ファイル関連
   "files.associations": {
@@ -9,10 +11,22 @@
     "*.json.txt": "json",
     "*.yml": "ruby"
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // markdown
+  "markdown.preview.breaks": true,
+
+  // TypeScript
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+
+  // CodeLens
+  "editor.codeLens": true,
 
   // 改行・エンコード
   "files.eol": "\n",
-  "files.autoGuessEncoding": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
@@ -59,10 +73,7 @@
   "editor.renderLineHighlight": "all",
   "editor.roundedSelection": false,
 
-  // テーマ
-  "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
-  "materialTheme.fixIconsRunning": false,
+  // 拡張機能
   "extensions.ignoreRecommendations": false,
 
   // ターミナル
@@ -70,8 +81,15 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.experimentalTextureCachingStrategy": "dynamic",
 
   // https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit
-  "glassit.alpha": 230
+  "glassit.alpha": 250,
+
+  // https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+  "polacode.transparentBackground": true,
+
+  // other
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "tabnine.experimentalAutoImports": true
 }
