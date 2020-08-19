@@ -29,6 +29,27 @@
   "python.languageServer": "Pylance",
   "python.analysis.typeCheckingMode": "strict",
 
+  // Python
+  "python.languageServer": "Pylance",
+  "python.dataScience.askForKernelRestart": false,
+
+  // CodeLens
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": true,
+
   // 改行・エンコード
   "files.eol": "\n",
   "files.insertFinalNewline": true,
@@ -38,6 +59,13 @@
   "editor.fontFamily": "Myrica M,Ricty Diminished Discord,monospace,ＭＳ ゴシック,Osaka-Mono",
   "editor.fontSize": 16,
   "editor.lineHeight": 14,
+
+  // Markdown
+  "[markdown]": {
+    "editor.fontFamily": "YuMincho, 游明朝, IPAPMincho",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "bold"
+  },
 
   // タブ設定
   "editor.tabSize": 2,
@@ -76,6 +104,9 @@
   "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
   "editor.roundedSelection": false,
+
+  // テーマ
+  "materialTheme.fixIconsRunning": false,
 
   // 拡張機能
   "extensions.ignoreRecommendations": false,
