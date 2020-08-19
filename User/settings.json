@@ -2,7 +2,6 @@
   // タイトル・ウィンドウ
   "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
   "window.titleBarStyle": "custom",
-  // "window.zoomLevel": 0,
   "window.menuBarVisibility": "default",
 
   // ファイル関連
@@ -18,19 +17,12 @@
   // markdown
   "markdown.preview.breaks": true,
 
-  // TypeScript
-  "typescript.referencesCodeLens.enabled": true,
-  "typescript.referencesCodeLens.showOnAllFunctions": true,
-
   // CodeLens
   "editor.codeLens": true,
 
   // Python
   "python.languageServer": "Pylance",
   "python.analysis.typeCheckingMode": "strict",
-
-  // Python
-  "python.languageServer": "Pylance",
   "python.dataScience.askForKernelRestart": false,
 
   // CodeLens
